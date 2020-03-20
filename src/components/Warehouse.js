@@ -6,7 +6,7 @@ export default function Warehouse() {
         <>
             <Container className='p-1 bg-dark' fluid>
                 <Row className="justify-content-center">
-                    <Card text={'dark'} style={{ width: '18rem' }}>
+                    <Card className="m-2" text={'dark'} style={{ width: '18rem' }}>
                         <Card.Header>Frango com Cheddar</Card.Header>
                         <Card.Body>
                             <Card.Title> Frango com Cheddar </Card.Title>
@@ -18,7 +18,7 @@ export default function Warehouse() {
                         </Card.Body>
                     </Card> 
                     
-                    <Card text={'dark'} style={{ width: '18rem' }}>
+                    <Card className="m-2" text={'dark'} style={{ width: '18rem' }}>
                         <Card.Header>Frango com Cheddar</Card.Header>
                         <Card.Body>
                             <Card.Title> Frango com Cheddar </Card.Title>
