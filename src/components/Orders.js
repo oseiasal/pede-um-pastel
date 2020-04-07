@@ -1,10 +1,10 @@
 import React from 'react'
-import { Col, Container, Row, Card, Button } from 'react-bootstrap'
+import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 
 export default function Orders() {
     return (
         <>
-            <Container className='bg-info' fluid>
+            <Container className='bg-info' style={{height: '90vh'}} fluid>
                 <Row>
                     <Col className='m-2'>
                         <Card text={'dark'} style={{ width: '18rem' }}>
