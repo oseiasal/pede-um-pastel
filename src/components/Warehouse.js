@@ -4,9 +4,9 @@ import { Card, Container, Row } from 'react-bootstrap'
 export default function Warehouse() {
     return (
         <>
-            <Container className='p-1 bg-dark' fluid>
-                <Row className="justify-content-center">
-                    <Card className="m-2" text={'dark'} style={{ width: '18rem' }}>
+            <Container className=' bg-dark' style={{ height: '90vh' }} fluid>
+                <Row className=" p-1 justify-content-center" >
+                    <Card className="m-2" text={'dark'} style={{ width: 300 }}>
                         <Card.Header>Frango com Cheddar</Card.Header>
                         <Card.Body>
                             <Card.Title> Frango com Cheddar </Card.Title>
@@ -16,9 +16,9 @@ export default function Warehouse() {
                             </Card.Text>
 
                         </Card.Body>
-                    </Card> 
-                    
-                    <Card className="m-2" text={'dark'} style={{ width: '18rem' }}>
+                    </Card>
+
+                    <Card className="m-2" text={'dark'} style={{ width: 300 }}>
                         <Card.Header>Frango com Cheddar</Card.Header>
                         <Card.Body>
                             <Card.Title> Frango com Cheddar </Card.Title>
